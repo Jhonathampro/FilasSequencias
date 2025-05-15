@@ -30,6 +30,9 @@ public class Ex2_ListaEncadeada {
             System.out.println("dado " + aux.dado);
             aux = aux.prox;
         }
+        // o primeiro valor que ele aponta é o três porque aux aponta para lista que recebeu o
+        // endereço de novo2 que tem o dado 3
+        // o segundo valor é 1, porque o prox do novo2 e do dado 3, é a lista que tem o valor 1
 
     }
 }
